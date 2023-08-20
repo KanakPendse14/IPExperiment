@@ -1,14 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: #ff8787;
 }
 
 .profile {
     max-width: 800px;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #f9b4b4;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -17,27 +17,33 @@ body {
 .profile-header {
     display: flex;
     align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .profile-picture img {
-    width: 150px;
+    width: 130px;
+    height: max-content;
     border-radius: 50%;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: #f9b4b4;
     margin-right: 20px;
 }
 
 .profile-info {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
     flex: 1;
 }
 
 .profile-info h1 {
+    font-style: bold;
     margin: 0;
     font-size: 24px;
 }
 
 .profile-info p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 5px 0;
-    color: #666;
+    color: #e45454;
 }
 
 .profile-introduction h2,
@@ -59,4 +65,10 @@ body {
 .video video {
     width: 100%;
     border-radius: 4px;
+}
+
+.skills{
+    display: table;
+    border-collapse: separate;
+    border-spacing: 5px;
 }
