@@ -1,81 +1,4 @@
-/* body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ff8787;
-}
 
-.profile {
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #f9b4b4;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-}
-
-.profile-header {
-    display: flex;
-    align-items: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.profile-picture img {
-    width: 130px;
-    height: max-content;
-    border-radius: 50%;
-    box-shadow: #f9b4b4;
-    margin-right: 20px;
-}
-
-.profile-info {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
-    flex: 1;
-}
-
-.profile-info h1 {
-    font-style: bold;
-    margin: 0;
-    font-size: 24px;
-}
-
-.profile-info p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 5px 0;
-    color: #e45454;
-}
-
-.profile-introduction h2,
-.profile-media h2 {
-    margin-top: 20px;
-}
-
-.profile-introduction p {
-    margin: 0;
-    color: #333;
-}
-
-.audio,
-.video {
-    margin-top: 10px;
-}
-
-.audio audio,
-.video video {
-    width: 100%;
-    border-radius: 4px;
-}
-
-.skills{
-    display: table;
-    border-collapse: separate;
-    border-spacing: 5px;
-} */
-
-/* External CSS Styles for T-Shirt Order Form Page */
-
-/* Universal Selector */
 * {
     box-sizing: border-box;
   }
@@ -85,22 +8,23 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f7f7f7;
+    background-color: #7f3939;
+    
   }
   
   /* Class Selector */
   .order-form {
     max-width: 800px;
     margin: auto;
-    background-color: #fff;
+    background-color: #f6f1f1;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    box-shadow: 0 0 50px rgba(253, 251, 251, 0.1);
   }
   
   /* Element Selector */
   h1 {
-    color: #333;
+    color: #f30909;
   }
   
   /* Label Styles */
@@ -117,7 +41,7 @@
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #0a0a0a;
     border-radius: 5px;
   }
   
