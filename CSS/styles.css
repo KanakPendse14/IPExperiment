@@ -1,5 +1,5 @@
-body {
-    /* font-family: Arial, sans-serif; */
+/* body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #ff8787;
@@ -71,4 +71,96 @@ body {
     display: table;
     border-collapse: separate;
     border-spacing: 5px;
-}
+} */
+
+/* External CSS Styles for T-Shirt Order Form Page */
+
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  /* Class Selector */
+  .order-form {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Element Selector */
+  h1 {
+    color: #333;
+  }
+  
+  /* Label Styles */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Input Styles */
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Select Styles */
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Button Styles */
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  /* Image Styles */
+  .design-option img {
+    max-width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Pseudo-class (Hover) */
+  .design-option:hover {
+    background-color: #f7f7f7;
+  }
+  
+  /* Pseudo-element */
+  .order-form::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
