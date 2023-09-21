@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/styles.css">
+    <script src="./script.js"></script>
     <title>T-Shirt Order Form</title>
 </head>
 <body>
@@ -54,4 +55,73 @@
 </html>
 
 
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./CSS/styles.css">
+     <script src="./script.js"></script>
+     <title>T-Shirt Order Form</title>
+ </head>
+ <body>
+     <div class="order-form">
+         <h1>Place an Order for a T-Shirt</h1>
+         <form>
+             <label for="tagline">Tagline:</label>
+             <input type="text" id="tagline" name="tagline" required>
+             <div class="design-options">
+                <label for="tshirt-design">Select T-Shirt Design:</label>
+                <div class="design-options">
+                    <label class="design-option">
+                        <input type="radio" name="tshirt-design" value="design1.jpg" required>
+                        <img src="./images/tshirt1.png" alt="Design 1">
+                    </label>
+                    <label class="design-option">
+                        <input type="radio" name="tshirt-design" value="design2.jpg">
+                        <img src="./images/tshirt2.png" alt="Design 2">
+                    </label>
+                    <label class="design-option">
+                        <input type="radio" name="tshirt-design" value="design3.jpg">
+                        <img src="./images/tshirt3.png" alt="Design 3">
+                    </label>
+                 
+             </div>
+             
+             <label for="tshirt-color">T-Shirt Color:</label>
+             
+                
+                <select id="tshirt-color" name="tshirt-color">
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                    <option value="blue">Blue</option>
+                   
+                 <!-- ... (color options as before) ... -->
+             </select>
+             
+             <label for="price-range">Price Range:</label>
+             
+                <select id="price-range" name="price-range">
+                    <option value="300-400">300 - 400</option>
+                    <option value="450-600">450 - 600</option>
+                    <option value="600-800">600 - 800</option>
+                </select>
 
+             
+             
+             <label for="delivery-address">Delivery Address:</label>
+             <textarea id="delivery-address" name="delivery-address" rows="4" required></textarea>
+             
+             <label for="mobile-number">Contact Number:</label>
+             <input type="tel" id="mobile-number" name="mobile-number" pattern="[0-9]{10}" required>
+             
+             <label for="delivery-date">Delivery Date:</label>
+             <input type="date" id="delivery-date" name="delivery-date" required>
+             
+             <button type="submit">Place Order</button>
+         </form>
+     </div>
+ </body>
+ </html>
+ 

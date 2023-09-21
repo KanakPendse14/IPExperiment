@@ -1,9 +1,9 @@
-
+/* 
 * {
     box-sizing: border-box;
   }
   
-  /* Body Styles */
+ 
   body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,7 +12,7 @@
     
   }
   
-  /* Class Selector */
+  
   .order-form {
     max-width: 800px;
     margin: auto;
@@ -22,18 +22,18 @@
     box-shadow: 0 0 50px rgba(253, 251, 251, 0.1);
   }
   
-  /* Element Selector */
+ 
   h1 {
     color: #f30909;
   }
   
-  /* Label Styles */
+  
   label {
     display: block;
     margin-bottom: 5px;
   }
   
-  /* Input Styles */
+  
   input[type="text"],
   input[type="number"],
   input[type="date"],
@@ -45,7 +45,7 @@
     border-radius: 5px;
   }
   
-  /* Select Styles */
+  
   select {
     width: 100%;
     padding: 10px;
@@ -54,7 +54,7 @@
     border-radius: 5px;
   }
   
-  /* Button Styles */
+ 
   button[type="submit"] {
     background-color: #333;
     color: #fff;
@@ -68,7 +68,7 @@
     background-color: #555;
   }
   
-  /* Image Styles */
+  
   .design-option img {
     max-width: 100px;
     border: 1px solid #ccc;
@@ -76,15 +76,127 @@
     cursor: pointer;
   }
   
-  /* Pseudo-class (Hover) */
+  
   .design-option:hover {
     background-color: #f7f7f7;
   }
   
-  /* Pseudo-element */
+  
   .order-form::after {
     content: "";
     display: block;
     clear: both;
   }
-  
+   */
+
+   /* CSS styles for T-Shirt Order Form Page */
+
+/* Universal Selector */
+* {
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #7f3939;
+}
+
+/* Class Selector */
+.order-form {
+  max-width: 800px;
+  margin: auto;
+  background-color: #f6f1f1;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0 0 50px rgba(253, 251, 251, 0.1);
+}
+
+/* Element Selector */
+h1 {
+  color: #f30909;
+}
+
+/* Label Styles */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="tel"], /* Added style for tel input type */
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #0a0a0a;
+  border-radius: 5px;
+}
+
+/* Select Styles */
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button Styles */
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* Image Styles */
+.design-option img {
+  max-width: 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Pseudo-class (Hover) */
+.design-option:hover {
+  background-color: #f7f7f7;
+}
+
+/* Pseudo-element */
+.order-form::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Color Palette Styles */
+.color-palette {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.color-option {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.color-option.selected {
+  border-width: 3px;
+}
